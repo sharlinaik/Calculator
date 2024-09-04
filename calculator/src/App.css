@@ -1,0 +1,41 @@
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+input {
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  height: 60px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#clear {
+  grid-column: span 2;
+  background-color: red;
+  color: white;
+}
+
+#backspace {
+  background-color: orange;
+  color: white;
+}
+
+#result {
+  grid-column: span 2;
+  background-color: green;
+  color: white;
+}
