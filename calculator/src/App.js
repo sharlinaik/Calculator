@@ -53,6 +53,7 @@ function App() {
         <input type="text" value={result} readOnly />
       </form> */}
       <Input result={result}/>
+      
       <Buttons clear={clear} backspace={backspace} handleClick={handleClick} calculate={calculate}/>
 
       {/* <div className="keypad">
